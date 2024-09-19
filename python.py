@@ -11,3 +11,13 @@ nota = 8.75
 
 fez_inscricao = True
 
+# Observe que x é um número inteiro, nome é uma string, nota é um número decimal e fez_inscricao é um booleano. Será que Python é capaz de definir o tipo de variável somente com base no valor fornecido em cada variável?
+
+# Utilizaremos a função print() e type().
+
+print(type(x))
+print(type(nome))
+print(type(nota))
+print(type(fez_inscricao))
+
+
