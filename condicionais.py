@@ -10,5 +10,4 @@ else :
 idade_certa = int(idade)
 
 if idade_certa == int(66) :
-    idade_certa = input("qual a sua idade?") :
-        if idade_certa 
+    idade_certa = input("qual a sua idade?") 
