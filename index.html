@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/styles.css" />
-  </head>
-  <body>
-    <div></div>
-    <script src="./src/scripts/script.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <nav><li><a href="./sobre.html" target="_blank">Sobre nós</a></li></nav>
+        <nav><li><a href="#">Eventos</a></li></nav>
+        <nav><li><a href="./utilidades.html" target="_blank">Utilidades</a></li></nav>
+        <nav><li><a href="#">Assistir</a></li></nav>
+        <nav><li><a href="#">Comunidade</a></li></nav>
+        <nav><li><a href="./contato.html" target="_blank">Contato</a></li></nav>
+        <a href="#" id="a-img"><img id="tv-img" src="./img/tv.png"/></a>
+    </header>
+    <section id="apresentacao">
+        <h1 class="title">Plataforma de inclusão Digital voltada para o público idoso<br/>
+            Participe conosco!
+        </h1>
+        <label for="search"></label>
+        <input id="search" type="search" placeholder="Pesquise aqui">
+        <button id="search-search">Pesquisar</button>
+    </section>
+    <br/>
+    <section id="apresentacao-imagens">
+        <img class="img" src="./img/senhora-celular.jpg" alt="Uma senhora mexendo no celular"/>
+        <img class="img"  src="./img/idosos-social.jpg" alt="Grupo de idosos socializando"/>
+        <img class="img" src="./img/idoso-headphone.jpg" alt="Um senhor escutando música em seu headphone e se divertindo"/>
+    </section>
+    <section id="index-cadastro">
+        <button id="cadastro-button">
+            <a href="./cadastro.html" id="cadastro-a" target="_blank">Cadastre-se</a>
+        </button>
+    </section>
+    <section id="apresentacao-video">
+        <video>
+            <source src="" type="audio/mp4" alt="">
+            O seu  navegador não possui suporte para vídeo
+        </video>
+    </section>
+
+    <footer id="container-footer">
+        <span id="footer"><b>Criado por: Layza ©</b></span>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
 </html>
